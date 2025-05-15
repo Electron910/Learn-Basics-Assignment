@@ -1,0 +1,7 @@
+UPDATE public."student_data" SET
+		"school_name" = '{{update_form.fieldState.school_name.isVisible ? update_form.formData.school_name : update_form.sourceData.school_name}}',
+		"class" = '{{update_form.fieldState.class.isVisible ? update_form.formData.class : update_form.sourceData.class}}',
+    "section" = '{{update_form.fieldState.section.isVisible ? update_form.formData.section : update_form.sourceData.section}}',
+		"student_name" = '{{update_form.fieldState.student_name.isVisible ? update_form.formData.student_name : update_form.sourceData.student_name}}',
+		"roll_number" = '{{update_form.fieldState.roll_number.isVisible ? update_form.formData.roll_number : update_form.sourceData.roll_number}}'
+WHERE "id" = {{data_table.selectedRow.id}};

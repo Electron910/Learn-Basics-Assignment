@@ -1,0 +1,2 @@
+DELETE FROM public."student_data"
+  WHERE "id" = {{data_table.triggeredRow.id}};
