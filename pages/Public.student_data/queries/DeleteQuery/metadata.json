@@ -22,9 +22,9 @@
       "name": "StudentDB",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": false,
     "name": "DeleteQuery",
     "pageId": "Public.student_data",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": false
   }
 }

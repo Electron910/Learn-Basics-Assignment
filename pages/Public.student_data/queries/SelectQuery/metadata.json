@@ -22,9 +22,9 @@
       "name": "StudentDB",
       "pluginId": "postgres-plugin"
     },
-    "executeOnLoad": true,
     "name": "SelectQuery",
     "pageId": "Public.student_data",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }
